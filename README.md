@@ -222,3 +222,16 @@ For this project, we incorporate segments of code from:
 - [Restormer](https://github.com/swz30/Restormer)
 - [Stripformer](https://github.com/pp00704831/Stripformer-ECCV-2022-)
 - [FFTformer](https://github.com/kkkls/FFTformer)
+
+## Citation
+
+```
+@InProceedings{Wu_2024_IDBlau,
+    author    = {Wu, Jia-Hao and Tsai, Fu-Jen and Peng, Yan-Tsung and Tsai, Chung-Chi and Lin, Chia-Wen and Lin, Yen-Yu},
+    title     = {ID-Blau: Image Deblurring by Implicit Diffusion-based reBLurring AUgmentation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {25847-25856}
+}
+```
