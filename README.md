@@ -142,9 +142,7 @@ The dataset is structured as follows:
 
 To reproduce the results of each model, please download the corresponding model parameters based on different models and datasets.
 
-**The weights will be released later !**
-
-- **You can find all the model weights at [ID-Blau Weights](https://drive.google.com/drive/folders/1HUXGnC0SbsS5YCs_jjnelRmiVN_-oGGP?usp=drive_link)**
+- **You can find all the model weights at [ID-Blau Weights](https://drive.google.com/drive/folders/1HUXGnC0SbsS5YCs_jjnelRmiVN_-oGGP?usp=drive_link)**.
     - [MIMO_UNetPlus Weights](https://drive.google.com/drive/folders/1Bc808KGv49NXXSB50cKq9_uH8SdEGGs4?usp=drive_link)
     - [Restormer Weights](https://drive.google.com/drive/folders/1ujPMfrc33abnq8Ecnpds684_SlKgVsot?usp=drive_link)
     - [Stripformer Weights](https://drive.google.com/drive/folders/1j-htUrnBon5RRzfVcQwg-ZiNy7CZlsqb?usp=drive_link)
@@ -207,8 +205,7 @@ python eval_realblur.py --out_path 'out/Stripformer/results/RealBlur_J' --gt_pat
 
 ## Results
 
-We compare the deblurring performance of four baselines and their ID-Blau-powered versions in Table, where `Baseline` and `+ID-Blau` denote the deblurring performance without and with ID-
-Blau, respectively.
+We compare the deblurring performance of four baselines and their ID-Blau-powered versions in Table, where `Baseline` and `+ID-Blau` denote the deblurring performance without and with ID-Blau, respectively.
 Experimental results have shown that ID-Blau can significantly improve the performance of state-of-the-art deblurring models.
 
 ![Quantitative](figure/Quantitative.png)
